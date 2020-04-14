@@ -3,8 +3,8 @@ layout: default
 title: AboutHank Quinlan
 ---
 
-### First
+# First
 This is some information explaining why *this* exists!
 
-## Second
+# Second
 Some more information and things to click on [Click](https://google.com)
