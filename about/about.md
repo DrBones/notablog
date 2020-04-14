@@ -1,3 +1,8 @@
+---
+layout: default
+title: AboutHank Quinlan
+---
+
 ### First
 This is some information explaining why *this* exists!
 
