@@ -4,5 +4,6 @@ title: About this horrible Blog
 ---
 
 <div class="blurb">
-{% include_relative about.md %}
+{% capture my_include %}{% include_relative about.md %}{% endcapture %}
+{{ my_include | markdownify }}
 </div><!-- /.blurb -->
