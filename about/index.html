@@ -6,5 +6,6 @@ title: About this horrible Blog
 <div class="blurb">
 {% capture my_include %}{% include_relative about.md %}{% endcapture %}
 {{ my_include | markdownify }}
+  Some text as a test
   {{ page.url | jsonify | escape }}
 </div><!-- /.blurb -->
