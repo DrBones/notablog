@@ -2,7 +2,7 @@
   link: /
 - name: About
   link: /about/
-  - name: CV
+- name: CV
   link: /cv/
-  - name: Blog
+- name: Blog
   link: /blog/
