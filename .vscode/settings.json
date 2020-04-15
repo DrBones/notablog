@@ -1,0 +1,5 @@
+{
+    "beautify.ignore": "**/*.scss",
+    "terminal.integrated.fontFamily": "Hasklug NF",
+    "terminal.integrated.fontSize": 13
+}
