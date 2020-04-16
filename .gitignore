@@ -1,3 +1,4 @@
 _site/
 .vscode/settings.json
 .jekyll-cache/
+.sass-cache/
