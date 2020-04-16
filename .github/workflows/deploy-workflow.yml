@@ -5,8 +5,10 @@
     # only when we push to the master branch
     on:
       push:
-        branches:
-          - master
+        branches-ignore:
+          - '**'
+        # branches:
+        #   - master
 
     # Here is where we define our jobs.
     # Which means the tasks we want Github to execute
