@@ -1,6 +1,7 @@
-name: Hank Quinlan, Horrible Cop
-title: Awesome Title
+name: not a blog
+title: not a blog
 markdown: kramdown
+remote_theme: essentialenemy/noir
 permalink: /blog/:year/:month/:day/:title
 collections:
     authors:
