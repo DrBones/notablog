@@ -1,7 +1,8 @@
 name: not a blog
 title: not a blog
 markdown: kramdown
-remote_theme: essentialenemy/noir
+# remote_theme: essentialenemy/noir
+# theme: noir-for-jekyll
 permalink: /blog/:year/:month/:day/:title
 collections:
     authors:
