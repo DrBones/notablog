@@ -22,8 +22,8 @@
         && bundle config --global silence_root_warning 1
 
     # This is our entrypoint to our custom scripts
-    # more about that in a sec
-    COPY entrypoint.sh /
+    # Copies your code file from your action repository to the filesystem path `/` of the container
+    COPY entrypoint.sh /entrypoint.sh
 
     # Use the entrypoint.sh file as the container entrypoint
     # when Github executes our Docker container
