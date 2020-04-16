@@ -33,23 +33,23 @@
     echo "☁️ Publishing website"
 
     # We don't need the README.md file on this branch
-    rm -f README.md
+    # rm -f README.md
 
     # Now we init a new git repository inside _site
     # So we can perform a commit
-    git init
-    git config user.name "${GITHUB_ACTOR}"
-    git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-    git add .
+    # git init
+    # git config user.name "${GITHUB_ACTOR}"
+    # git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+    # git add .
     # That will create a nice commit message with something like:
     # Github Actions - Fri Sep 6 12:32:22 UTC 2019
-    git commit -m "Github Actions - $(date)"
+    # git commit -m "Github Actions - $(date)"
     echo "Build branch ready to go. Pushing to Github..."
     # Force push this update to our gh-pages
-    git push --force $REMOTE_REPO master:gh-pages
+    # git push --force $REMOTE_REPO master:gh-pages
     # Now everything is ready.
     # Lets just be a good citizen and clean-up after ourselves
-    rm -fr .git
-    cd ..
-    rm -rf repo
+    # rm -fr .git
+    # cd ..
+    # rm -rf repo
     echo "🎉 New version deployed 🎊"
